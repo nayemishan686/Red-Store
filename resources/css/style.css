@@ -822,6 +822,7 @@ th:last-child{
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url('../img/contact.jpg') no-repeat top / cover;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/contact.jpg') no-repeat top / cover;
     padding: 80px 0;
+    margin-top: 50px;
 }
 .grid-contactform-container{
     display: grid;
