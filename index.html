@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>RED-Store Fashion</title>
+    <!-----Favicon img----->
+    <link rel="shortcut icon" type="image/x-icon" href="resources/img/redstore.png">
+    <!----Font Awesome---->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendors/css/uikit.min.css">
+    <!-----Main CSS----->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+<body>
+   <!--Start Header Section-->
+    <header id="header">
+        <div class="row">
+            <div class="navbar" uk-sticky="top: 60vh">
+                <div class="logo">
+                    <a href="index.html"><img src="resources/img/logo.png" alt="logo"></a>
+                </div>
+                <nav id="nav" onclick="closeMenu()">
+                   <div class="close-btn">
+                       <i class="fa fa-times" onclick="closeMenu()"></i>
+                   </div>
+                    <ul>
+                        <div class="list">
+                        <li><a onclick="closeMenu()" href="index.html">home</a></li>
+                        <li><a onclick="closeMenu()" href="product.html">products</a></li>
+                        <li><a onclick="closeMenu()" href="about.html">about</a></li>
+                        <li><a onclick="closeMenu()" href="contact.html">contact</a></li>
+                        <li><a onclick="closeMenu()" href="account.html">account</a></li>
+                        </div>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="resources/img/cart.png" class="cart" alt="cart"></a>
+                <span><i class="fas fa-bars" onclick="openMenu()"></i></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="grid-header-container">
+                <div class="grid-header-item">
+                    <div class="description">
+                        <h1>give yout workout a new style!</h1>
+                        <p>Success isn't always about greatness. it's about consistency. Consistent hard work gains success greatness will come.</p>
+                        <a href="" class="btn">Explore Now &#8594;</a>
+                    </div>
+                </div>
+                <div class="grid-header-item">
+                    <img src="resources/img/image1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End Header Section-->
+    
+    
+    <!--Start Category Section-->
+    
+        <section id="category">
+            <div class="row">
+                <div class="grid-category-container">
+                    <div class="grid-category-item">
+                       <img src="resources/img/category-1.jpg" alt=""> 
+                    </div>
+                    <div class="grid-category-item">
+                       <img src="resources/img/category-2.jpg" alt=""> 
+                    </div>
+                    <div class="grid-category-item">
+                       <img src="resources/img/category-3.jpg" alt=""> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    
+    <!--End Header Section-->
+    
+    <!--Start Featured Products Section-->
+    
+        <section id="featured">
+            <div class="row">
+                <h2>Featured Products</h2>
+                <hr>
+                <br>
+                <div class="grid-featured-container">
+                    <div class="grid-featured-item">
+                        <div class="card">
+                            <a href="product-details.html"><img src="resources/img/product-1.jpg" alt=""></a>
+                            <h4>Red Printed T-Shirt</h4>
+                            <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>$50.00</p>
+                        </div>
+                    </div>
+                    <div class="grid-featured-item">
+                        <div class="card">
+                            <img src="resources/img/product-2.jpg" alt="">
+                            <h4>HRX Sports Shoes</h4>
+                            <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>$75.00</p>
+                        </div>
+                    </div>
+                    <div class="grid-featured-item">
+                        <div class="card">
+                            <img src="resources/img/product-3.jpg" alt="">
+                            <h4>HRX Gray Trackpants</h4>
+                            <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>$60.00</p>
+                        </div>
+                    </div>
+                    <div class="grid-featured-item">
+                        <div class="card">
+                            <img src="resources/img/product-4.jpg" alt="">
+                            <h4>Blue Printed T-Shirt</h4>
+                            <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                            </div>
+                            <p>$55.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    <!--End Featured Products Section-->
+    
+    
+    <!--Start Latest Products Section-->
+    
+    
+    <section id="latest">
+        <div class="row">
+            <h2>Latest Products</h2>
+            <br>
+            <hr>
+            <div class="grid-latest-container">
+                <div class="grid-latest-item">
+                   <div class="card">
+                            <img src="resources/img/product-5.jpg" alt="">
+                            <h4>Puma Gray Sports Shoes</h4>
+                            <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                            </div>
+                            <p>$95.00</p>
+                    </div> 
+                </div>
+                <div class="grid-latest-item">
+                    <div class="card">
+                            <img src="resources/img/product-6.jpg" alt="">
+                            <h4>Black Printed T-Shirt</h4>
+                            <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>$55.00</p>
+                    </div>
+                </div>
+                <div class="grid-latest-item">
+                    <div class="card">
+                            <img src="resources/img/product-7.jpg" alt="">
+                            <h4>HRX Set 3 Shocks</h4>
+                            <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>$30.00</p>
+                    </div>
+                </div>
+                <div class="grid-latest-item">
+                    <div class="card">
+                            <img src="resources/img/product-8.jpg" alt="">
+                            <h4>Black Fossil Watch</h4>
+                            <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                            </div>
+                            <p>$120.00</p>
+                    </div>
+                </div>
+                <div class="grid-latest-item">
+                    <div class="card">
+                            <img src="resources/img/product-9.jpg" alt="">
+                            <h4>Black Sports Watch</h4>
+                            <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                            </div>
+                            <p>$135.00</p>
+                    </div>
+                </div>
+                <div class="grid-latest-item">
+                    <div class="card">
+                            <img src="resources/img/product-10.jpg" alt="">
+                            <h4>Black HRX Shoes</h4>
+                            <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>$60.00</p>
+                    </div>
+                </div>
+                <div class="grid-latest-item">
+                    <div class="card">
+                            <img src="resources/img/product-11.jpg" alt="">
+                            <h4>Gray Nike Shoes</h4>
+                            <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>$50.00</p>
+                    </div>
+                </div>
+                <div class="grid-latest-item">
+                    <div class="card">
+                            <img src="resources/img/product-12.jpg" alt="">
+                            <h4>HRX Black Trackpants</h4>
+                            <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>$75.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <!--End Latest Exclusive Section-->
+    
+    <!--Start Exclusive Products Section-->
+    
+        <section id="exclusive">
+            <div class="row">
+                <div class="grid-Exclusive-container">
+                    <div class="grid-Exclusive-item">
+                        <div class="image">
+                            <img src="resources/img/exclusive.png" alt="">
+                        </div>
+                    </div>
+                    <div class="grid-Exclusive-item">
+                        <div class="exclusive-about">
+                            <span>Exclusively Available on RedStore</span>
+                            <h2>Smart Band 4</h2>
+                            <p>The Mi Smart Band 4 features o 39.9% larger (than Mi Band 3) AMOLED color full-touch display with adjustable brightness. So, everything is clear as can be.</p>
+                            <a href="" class="btn">Buy Now &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    <!--End Precious Products Section-->
+    
+    <!--Start Testimonial Section-->
+    
+        <section id="testimonial">
+            <div class="row">
+                <div class="grid-testimonial-container">
+                    <div class="grid-testimonial-item">
+                        <div class="testimonial-card">
+                           <i class="fa fa-quote-left" aria-hidden="true"></i>
+                           <div class="testimonial-about">
+                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic modi libero sunt odit minus ipsam adipisci id! Illum, alias quibusdam, iure laboriosam iste sapiente hic placeat unde accusantium laudantium necessitatibus?</p>
+                           </div>
+                           <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <img src="resources/img/user-1.png" alt="User pic">
+                            <h3>sean parker</h3>
+                        </div>
+                    </div>
+                    <div class="grid-testimonial-item">
+                        <div class="testimonial-card">
+                           <i class="fa fa-quote-left" aria-hidden="true"></i>
+                           <div class="testimonial-about">
+                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic modi libero sunt odit minus ipsam adipisci id! Illum, alias quibusdam, iure laboriosam iste sapiente hic placeat unde accusantium laudantium necessitatibus?</p>
+                           </div>
+                           <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <img src="resources/img/user-2.png" alt="User pic">
+                            <h3>Mike Smith</h3>
+                        </div>
+                    </div>
+                    <div class="grid-testimonial-item">
+                        <div class="testimonial-card">
+                           <i class="fa fa-quote-left" aria-hidden="true"></i>
+                           <div class="testimonial-about">
+                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic modi libero sunt odit minus ipsam adipisci id! Illum, alias quibusdam, iure laboriosam iste sapiente hic placeat unde accusantium laudantium necessitatibus?</p>
+                           </div>
+                           <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <img src="resources/img/user-3.png" alt="User pic">
+                            <h3>mabel joe</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    <!--End Testimonial Section-->
+    
+    
+    <!--Start Brand Section-->
+    
+    
+    <section id="brand">
+        <div class="row">
+            <div class="grid-brand-container">
+                <div class="grid-brand-item">
+                    <div class="brand-logo">
+                        <img src="resources/img/logo-godrej.png" alt="godrej">
+                    </div>
+                </div>
+                <div class="grid-brand-item">
+                    <div class="brand-logo">
+                        <img src="resources/img/logo-oppo.png" alt="godrej">
+                    </div>
+                </div>
+                <div class="grid-brand-item">
+                    <div class="brand-logo">
+                        <img src="resources/img/logo-coca-cola.png" alt="godrej">
+                    </div>
+                </div>
+                <div class="grid-brand-item">
+                    <div class="brand-logo">
+                        <img src="resources/img/logo-paypal.png" alt="godrej">
+                    </div>
+                </div>
+                <div class="grid-brand-item">
+                    <div class="brand-logo">
+                        <img src="resources/img/logo-philips.png" alt="godrej">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!--End Brand Section-->
+    
+    
+    <!--Start Footer Section-->
+    
+    
+    <footer id="footer">
+        <div class="row">
+            <div class="grid-footer-container">
+                <div class="grid-footer-item">
+                    <h3>download our app</h3>
+                    <p>Download App for Android & iOS mobile phone</p>
+                    <img src="resources/img/play-store.png" alt="play store">
+                </div>
+                <div class="grid-footer-item">
+                    <img src="resources/img/logo.png" alt="red store">
+                    <p>Our Purpose is Sustainably Make the Pleasure and Benifits of Sports Accessible to the Many</p>
+                </div>
+                <div class="grid-footer-item">
+                    <h3>useful links</h3>
+                    <ul>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Blog Post</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="grid-footer-item">
+                    <h3>follow us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <h5> &copy;Copyright 2020 - Nayem Hossain Ishan </h5>
+        </div>
+    </footer>
+    
+    
+    <!--End Footer Section-->
+    
+    
+    
+    
+    
+    
+    <script src="vendors/js/uikit.min.js"></script>
+    <script src="resources/js/main.js"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>

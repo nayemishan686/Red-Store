@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Product Details</title>
+    <!-----Favicon img----->
+    <link rel="shortcut icon" type="image/x-icon" href="resources/img/redstore.png">
+    <!----Font Awesome---->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendors/css/uikit.min.css">
+    <!-----Main CSS----->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+<body>
+   <!--Start Header Section-->
+    <header id="header">
+        <div class="row">
+            <div class="navbar" uk-sticky="top: 30vh">
+                <div class="logo">
+                    <a href="index.html"><img src="resources/img/logo.png" alt="logo"></a>
+                </div>
+                <nav id="nav" onclick="closeMenu()">
+                   <div class="close-btn">
+                       <i class="fa fa-times" onclick="closeMenu()"></i>
+                   </div>
+                    <ul>
+                        <div class="list">
+                        <li><a onclick="closeMenu()" href="index.html">home</a></li>
+                        <li><a onclick="closeMenu()" href="product.html">products</a></li>
+                        <li><a onclick="closeMenu()" href="about.html">about</a></li>
+                        <li><a onclick="closeMenu()" href="contact.html">contact</a></li>
+                        <li><a onclick="closeMenu()" href="account.html">account</a></li>
+                        </div>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="resources/img/cart.png" class="cart" alt="cart"></a>
+                <span><i class="fas fa-bars" onclick="openMenu()"></i></span>
+            </div>
+        </div>
+    </header>
+    <!--End Header Section-->
+    
+    <!--Start Contact Section -->
+    
+    
+    <section id="contact-form">
+        <div class="row">
+            <div class="grid-contactform-container">
+                <div class="grid-contactform-item">
+                    <div class="contact-info">
+                        <h5>information</h5>
+                        <h3>Contact Us</h3>
+                        <p>Do you need any kind of better collection? You can call us. We can give you any brand or any collection.</p>
+                        <h4>Bangladesh</h4>
+                        <small>Polytechnic road, Feni, Bangladesh.</small>
+                        <p>01637654490 <br> <br>01785782514</p>
+                        <h4>America</h4>
+                        <p>195 E Parker Square Dr.Parker, CO 8O1</p>
+                        <p>+43 982-314-0958</p>
+                        <h4>France</h4>
+                        <p>109 Avenue Leon, 63 Clermont-Ferrad</p>
+                        <p>+12 345-423-9893</p>
+                    </div>
+                </div>
+                <div class="grid-contactform-item">
+                    <form method="post">
+                        <input type="text" placeholder="Name*" required>
+                        <input type="email" placeholder="Email*" required>
+                        <textarea cols="30" rows="10" placeholder="Message*"></textarea>
+                        <a href="" class="btn">send message</a>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <!--End Contact Section -->
+   
+    
+    <!--Start Footer Section-->
+    
+    
+    <footer id="footer">
+        <div class="row">
+            <div class="grid-footer-container">
+                <div class="grid-footer-item">
+                    <h3>download our app</h3>
+                    <p>Download App for Android & iOS mobile phone</p>
+                    <img src="resources/img/play-store.png" alt="play store">
+                </div>
+                <div class="grid-footer-item">
+                    <img src="resources/img/logo.png" alt="red store">
+                    <p>Our Purpose is Sustainably Make the Pleasure and Benifits of Sports Accessible to the Many</p>
+                </div>
+                <div class="grid-footer-item">
+                    <h3>useful links</h3>
+                    <ul>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Blog Post</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="grid-footer-item">
+                    <h3>follow us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <h5> &copy;Copyright 2020 - Nayem Hossain Ishan </h5>
+        </div>
+    </footer>
+    
+    
+    <!--End Footer Section-->
+    
+    
+    
+    
+    
+    
+    <script src="vendors/js/uikit.min.js"></script>
+    <script src="resources/js/main.js"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
